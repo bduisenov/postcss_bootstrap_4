@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build:scss": "node-sass app.scss --output-style compress | postcss --use autoprefixer -o app.css"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "node-sass": "^4.7.2",
+    "postcss-cli": "^5.0.0"
+  }
+}
