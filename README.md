@@ -2,8 +2,9 @@
 
 in order to reproduce, run:
 
+```sh
 docker run --rm -v $(pwd):/app --workdir "/app" node:9 /bin/bash -c "npm install && npm run build:scss"
-
+```
 
 
 ```sh
